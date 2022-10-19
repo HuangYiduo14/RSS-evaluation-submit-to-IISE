@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from agv_simulator_no_deadlock import MAX_T
 
-MAX_T1 = 100
+MAX_T1 = 10000
 MAX_T2 = 10000
 from cqn_solver import exp_num_per_agv
 EPS = 1e-12
