@@ -199,7 +199,7 @@ if __name__ == '__main__':
                                                +['avg rho renewal','avg rho mg1', 'avg rho no cong']
                                                +['block rate renewal','block rate mg1','block rate no cong']
                                                +['block rate sim'+str(i) for i in range(exp_num_per_agv)])
-        results.to_csv(setting+'_compare_TH2.csv')
+        results.to_csv(setting+'_compare_TH.csv')
     # do evaluations
     exp_num_per_agv = 1
     for setting in setting_list:
